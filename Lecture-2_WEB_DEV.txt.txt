@@ -1,0 +1,7 @@
+Using VSCode for doing web development.
+
+Learning about HTML:- (Hyper Text Markup Language)
+
+!--> Boiler plate which is required for creating a HTML file
+
+
