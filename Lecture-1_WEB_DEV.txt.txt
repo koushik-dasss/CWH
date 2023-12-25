@@ -1,0 +1,73 @@
+Basics(HTML,CSS,JS) of Web Development by CWH
+
+How a website works ?	
+What is HTML,CSS and JS?
+
+HTML--> Hyper Text Markup Language
+CSS--> Cascading Style Sheets
+JS--> JavaScript
+
+Basic requirements to build a website
+
+HTML(Must required to make a website)
+It's the body.
+
+CSS(beauty)
+JS(brain)
+
+Example- Car 
+(First a metallic body is required --> HTML works like this )(body)
+
+Designing work of the car ,colour, decors --> CSS works like this (beauty) 
+
+Brain of car is Engine --> JS works like this in a website, like a brain of the website.
+
+
+HOW A WEBSITE WORKS?
+
+           (Client requests for the website)
+Web Server <---------------Client  
+                        (In windows,Ubuntu,Debian systems etc.)                   
+
+                         (In windows,Ubuntu,Debian systems etc.)  
+Web Server     ------------>Client 
+ (Server resturns the response)
+(Server returns the response using HTML ,CSS , JS)
+
+Web Server(IP Adress) has a backend server, made up of Php,Python,NodeJS etc.
+
+Every server has it's own backend server and IP address.
+
+Backend does some processing and computations , which results in HTML,CSS and JS.
+
+A website can have several different web pages inside it , which will be served according to the requests of the client . 
+
+The main or actual website from which it is requested , is known as the "Domain" of the website . 
+
+If not available , it will give a 404 error .
+
+HTML is the body , which consists of CSS and JS within it.
+
+
+Client does requests to a website.
+Simply put, a domain name (or just "domain") is the name of a website. It's what comes after "@" in an email address, or after "www." in a web address. If someone asks how to find you online, what you tell them is usually your domain name.
+
+404 error --> Not available (If the request's answer isn't avaialble)
+
+A 404 error is when a website's server can't find the page you're trying to access via a hyperlink or typing a URL in your browser. In these cases, any link to a page that isn't there, or a link with a typo in the target URL is called a dead or broken link.
+
+Web Browser manipulates the code done in backend  and shows the front end of the website, as per the request of the client.(Processes the HTML,CSS,JS to show up the website)
+
+HTML:-(Hyper Text Markup Language)
+- It is basically a standard markup language for giving a static skeleton to web applications and websites.
+- It's a well standardized system.
+
+ 
+CSS:-(Cascading Style Sheets)
+- CSS is a style sheet language that is used to handle the presentation of the web page containing HTML.
+- It makes our websites beautiful and modern looking.
+
+JS:-(JavaScript)
+- JS is a high level ,dynamic, interpreted programming language.
+- It allows client-side scripting to create completely dynamic web applications and websites.
+
