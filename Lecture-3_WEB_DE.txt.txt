@@ -1,0 +1,46 @@
+!Doctype html--> Making browser understand that it's a HTML Document
+There are different types of documents that browser can understand .
+Example is HTML and many other types are there .
+
+Tag--> Open and close < > 
+
+lang = attribute
+< = opening tag , > = closing tag
+head and body
+
+Head of a boiler plate:-
+- It contains metatags.
+- Title
+- External links that are attached like CSS and JS links.
+
+Meta= Information about information
+
+Metadata means "data about data". Metadata is defined as the data providing information about one or more aspects of the data; it is used to summarize basic information about data that can make tracking and working with specific data easier. Some examples include: Means of creation of the data.
+
+External sheet can also be linked in the HTML file under the head tag.
+
+
+Code folding of Head and Body can be done using VSCode.
+
+Body is the content of the website.
+Whatever is written in the body, is shown in the website's content , when the server is live.
+
+Content of the webpage comes under the body tag.
+
+Notes in the IDE/Browser --> Comment
+
+Comment in HTML =   <!-- (opening) --> (closing)
+
+
+
+Comment is  HTML file is   <!-- --> which has a shortcut of (ctrl + /)
+
+
+Toggling of 
+1)comment to code  
+2)code for comment  
+
+can be done by ctr(control) + /(forward slash).
+
+Shortcut key for commenting in any HTML file i.e. ctrl + / , is used for toggling comment lines to code and code lines to comment .
+
