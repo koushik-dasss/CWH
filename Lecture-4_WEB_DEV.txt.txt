@@ -1,0 +1,68 @@
+Head Tag :-
+Meta Tag , meta charset --> set of meta characters 
+
+Use of Meta Tag is done in SEO i.e. in  Search Engine Optimization .
+
+SEO is done by using various meta tags under head tag .
+
+This statement is an HTML meta tag that specifies the character encoding for a web page. Let's break it down:
+
+<meta>: This is an HTML tag used to provide metadata about the HTML document. Metadata includes information like character set, viewport settings, and other details that browsers may use to render the page.
+
+charset="UTF-8": This attribute within the <meta> tag specifically indicates the character encoding for the document. In this case, it's set to "UTF-8". UTF-8 is a character encoding that can represent a wide variety of characters, including those from different languages and special symbols.
+
+So, the statement <meta charset="UTF-8"> is telling the browser that the text content of the HTML document should be interpreted using the UTF-8 character encoding. This is important for ensuring that the text on the web page is displayed correctly, especially when dealing with diverse character sets and lang.
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+It encourages responsive design.
+
+his line of HTML code is using the <meta> tag to define the viewport settings for a web page. Let me break it down for you:
+
+name="viewport": This specifies that the meta tag is related to the viewport settings.
+content="width=device-width, initial-scale=1.0": This is where the actual settings are defined.
+width=device-width: This means the width of the viewport should be set to the width of the device's screen.
+initial-scale=1.0: This sets the initial zoom level when the page is first loaded. A value of 1.0 means no zoom, and the page will be displayed at the full width of the device.
+In simpler terms, this meta tag helps in making web pages responsive and ensures that they are displayed properly on various devices with different screen sizes, adjusting the viewport width accordingly.
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+meta tag commonly used in HTML to specify the version of Internet Explorer (IE) that should be used to render the webpage. Specifically, <meta http-equiv="X-UA-Compatible" content="ie=edge"> instructs IE to use the latest rendering engine available.
+
+Emmet abbreviations for HTML might not include this line because:
+
+Default Compatibility Modes: In modern web development, most browsers, including IE, have moved away from document modes and compatibility modes. Browsers now generally use their latest rendering engines by default without needing explicit instructions.
+
+Declining Usage of IE: Internet Explorer itself has become less relevant in recent years, with Microsoft shifting focus to Microsoft Edge. As a result, developers often prioritize ensuring compatibility with modern browsers rather than specifically targeting older versions of IE.
+
+DOCTYPE Declaration: The presence of a proper <!DOCTYPE> declaration usually helps trigger standards mode in most browsers, ensuring consistent rendering across different platforms.
+
+Including the X-UA-Compatible meta tag might still be relevant in specific cases where you need to force a particular rendering mode for compatibility reasons. However, for general web development, it's often unnecessary due to improved browser standards and decreasing usage of older IE versions.
+
+<meta name="keywords" content = "HTML , HTML TUTORIALS , WEB DEVELOPMENT">
+ 
+<meta name="robots" content = "INDEX , FOLLOW"> 
+ 
+These lines of HTML code are part of the <head> section of a webpage and provide information to search engines about how to index and display the content.
+
+<meta name="keywords" content="HTML, HTML TUTORIALS, WEB DEVELOPMENT">: This meta tag is used to specify keywords or phrases that are relevant to the content of the webpage. In this case, the keywords are "HTML," "HTML TUTORIALS," and "WEB DEVELOPMENT." Search engines may use this information to better understand the content of the page.
+
+<meta name="robots" content="INDEX, FOLLOW">: This meta tag is used to instruct search engine robots (or crawlers) on how to index and follow links on the page. "INDEX" indicates that the search engine is allowed to index the content, and "FOLLOW" means that the search engine can follow and crawl the links on the page to discover other pages.
+
+In summary, these meta tags help optimize the webpage for search engines, providing information about relevant keywords and instructing search engine robots on how to handle the content and links.
+
+
+
+ Search engine robots are commonly referred to as crawlers or spiders. These automated programs are used by search engines to browse the web, analyze content, and index webpages. Crawlers follow links on websites, collecting information about the pages they visit, and then index that information to make it searchable for users.
+
+
+
+
+
+
+
+
+
+
+
+
