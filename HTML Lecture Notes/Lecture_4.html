@@ -1,5 +1,16 @@
-Head Tag :-
-Meta Tag , meta charset --> set of meta characters 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture-4</title>
+</head>
+<body>
+    These are the notes for Lecture-4.
+</body>
+</html>
+<!--Head Tag :-
+Meta Tag , meta charset =  set of meta characters 
 
 Use of Meta Tag is done in SEO i.e. in  Search Engine Optimization .
 
@@ -13,11 +24,11 @@ charset="UTF-8": This attribute within the <meta> tag specifically indicates the
 
 So, the statement <meta charset="UTF-8"> is telling the browser that the text content of the HTML document should be interpreted using the UTF-8 character encoding. This is important for ensuring that the text on the web page is displayed correctly, especially when dealing with diverse character sets and lang.
 
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 It encourages responsive design.
 
-his line of HTML code is using the <meta> tag to define the viewport settings for a web page. Let me break it down for you:
+this line of HTML code is using the <meta> tag to define the viewport settings for a web page. Let me break it down for you:
 
 name="viewport": This specifies that the meta tag is related to the viewport settings.
 content="width=device-width, initial-scale=1.0": This is where the actual settings are defined.
@@ -53,16 +64,29 @@ In summary, these meta tags help optimize the webpage for search engines, provid
 
 
 
- Search engine robots are commonly referred to as crawlers or spiders. These automated programs are used by search engines to browse the web, analyze content, and index webpages. Crawlers follow links on websites, collecting information about the pages they visit, and then index that information to make it searchable for users.
+Search engine robots are commonly referred to as crawlers or spiders. These automated programs are used by search engines to browse the web, analyze content, and index webpages. Crawlers follow links on websites, collecting information about the pages they visit, and then index that information to make it searchable for users.
+
+Linking of CSS and JS to the HTML code. 
+
+1- For CSS => link , then choose  CSS 
+2- For JS  => script , script src <> </>
+
+  *** This is how you include external CSS.  
+    
+<link rel="stylesheet" href="koushik.css">
+
+ The actual code is a link tag (<link>) that is used to include an external CSS file. 
+
+rel="stylesheet" indicates that this is a style sheet.
+href="koushik.css" specifies the path to the external CSS file, in this case, it's named "koushik.css". This file would contain styling rules for your HTML content
+    
+   *** This is how you include external JS.  
+  
+<script src = Koushik.js></script>
+The script tag (<script>) is used to include an external JavaScript file.
+
+src="Koushik.js" points to the external JavaScript file named "Koushik.js". This file likely contains JavaScript code that adds interactivity or functionality to your HTML document.
 
 
-
-
-
-
-
-
-
-
-
-
+Note:- Make sure that the paths specified in the href and src attributes are correct and that the external files are in the right location relative to your HTML file
+-->
