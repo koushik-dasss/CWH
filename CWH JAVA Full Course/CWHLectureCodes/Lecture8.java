@@ -50,7 +50,7 @@ public class Lecture8 {
         // ARITHMETIC OPERATORS HAVE HIGHER PRIORITY THAN THE RELATIONAL OPERATORS .
 
         System.out.println(6==8);
-        System.out.println(6==6);
+        // System.out.println(6==6);
         // == ( Comparison/Relational   operator  , relational operator )
         // = (assignment operator)
         System.out.println(64<6);
@@ -65,9 +65,9 @@ public class Lecture8 {
         // Compiler will then not check the second condition
 
         System.out.println(65>5 && 45<89); // true and true = true
-        System.out.println(1>2 && 3<2); // false and false = false
+        // System.out.println(1>2 && 3<2); // false and false = false
         System.out.println(65>5 && 3<2); // true and false = false
-        System.out.println(3<2 && 65<5); // false and false = false
+        // System.out.println(3<2 && 65<5); // false and false = false
 
 
 
@@ -76,9 +76,9 @@ public class Lecture8 {
         // if the first condition is true , then the result is by default true
         // Compiler will then not check the second condition
 
-        System.out.println(65>5 || 45<89); // true or true = true
+        // System.out.println(65>5 || 45<89); // true or true = true
         System.out.println(1>2 || 3<2); // false or false = false
-        System.out.println(65>5 || 3<2); // true or false = true
+        // System.out.println(65>5 || 3<2); // true or false = true
         System.out.println(3<2 || 65<5); // false or false = true
 
 

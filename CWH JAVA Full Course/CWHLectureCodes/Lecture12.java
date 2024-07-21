@@ -1,6 +1,6 @@
 package CWHLectureCodes;
 
-mport java.util.Scanner;
+import java.util.Scanner;
 public class Lecture12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -39,8 +39,9 @@ public class Lecture12 {
 
         // Question - 5
         int x = 7 ;
-        int aA = 7 * 49/7 + 35/7; // 343/7 + 5 = 49 + 5 = 54
+        int aA = x * 49/x + 35/x; // 343/7 + 5 = 49 + 5 = 54
         System.out.println(aA);
+        sc.close();
 
 
 

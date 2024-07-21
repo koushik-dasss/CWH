@@ -52,6 +52,7 @@ public class Lecture5 {
         String str2 = sc.nextLine(); // Reads the entire lines of string.
         System.out.println(str1);
         System.out.println(str2);
+        sc.close();
 
 
 

@@ -55,6 +55,7 @@ public class Lecture7 {
         // Consume the remaining newline character
         boolean b1 = sc.hasNextInt();
         System.out.println(b1);
+        sc.close();
 
 
 

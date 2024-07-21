@@ -15,5 +15,6 @@ public class Lecture11 {
         double sum_of_fm = fm1+fm2+fm3+fm4+fm5;
         double percentage = ((sum_of_sm)/(sum_of_fm))*100;
         System.out.println("The CBSE percentage of the student is : "+ percentage );
+        sc.close();
     }
 }

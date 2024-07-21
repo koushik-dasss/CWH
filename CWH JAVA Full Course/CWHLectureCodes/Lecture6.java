@@ -1,5 +1,5 @@
 package CWHLectureCodes;
-mport java.util.Scanner;
+import java.util.Scanner;
 public class Lecture6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class Lecture6 {
         double sum_of_fm = fm1+fm2+fm3+fm4+fm5;
         double percentage = ((sum_of_sm)/(sum_of_fm))*100;
         System.out.println("The CBSE percentage of the student is : "+ percentage );
-
+        sc.close();
 
     }
 }
